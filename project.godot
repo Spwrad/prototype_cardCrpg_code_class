@@ -14,6 +14,10 @@ config/name="prototype_cardCrpg_code_class"
 config/features=PackedStringArray("4.5", "C#", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+TickObserver="*res://src/Framework/UpdateObserver/TickObserver.cs"
+
 [dotnet]
 
 project/assembly_name="prototype_cardCrpg_code_class"
