@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3 uid="uid://bdmowdf17awkc"]
+
+[ext_resource type="Script" uid="uid://rhllnrd6brmf" path="res://src/Framework/UIFramework/BattleLogTester.cs" id="1_o5507"]
+[ext_resource type="Script" uid="uid://cjphhn370wnct" path="res://src/Framework/UIFramework/BattleLogOverlay.cs" id="2_cqvla"]
+
+[node name="UiPlaceholder" type="Node2D"]
+
+[node name="Node2D" type="Node2D" parent="."]
+script = ExtResource("1_o5507")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+script = ExtResource("2_cqvla")
+
+[node name="Panel" type="Panel" parent="CanvasLayer"]
+offset_right = 615.0
+offset_bottom = 298.0
+
+[node name="TextEdit" type="TextEdit" parent="CanvasLayer/Panel"]
+layout_mode = 0
+offset_right = 598.0
+offset_bottom = 289.0
+placeholder_text = "sd"
+
+[node name="BattleUI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0

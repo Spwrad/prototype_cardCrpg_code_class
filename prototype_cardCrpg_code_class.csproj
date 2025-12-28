@@ -5,6 +5,7 @@
     <EnableDynamicLoading>true</EnableDynamicLoading>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="scenes\" />
     <Folder Include="src\Client\Gameplay\CardSystem\" />
   </ItemGroup>
 </Project>
